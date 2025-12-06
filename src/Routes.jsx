@@ -3,7 +3,7 @@ import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
 import ScrollToTop from "components/ScrollToTop";
 import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
-import ShoppingCart from './pages/shoppingCart';
+// import ShoppingCart from './pages/shoppingCart';
 import HomeLanding from './pages/home-landing';
 import LoginPage from './pages/login';
 import UserAccount from './pages/user-account';
@@ -21,7 +21,7 @@ const Routes = () => {
       <RouterRoutes>
         {/* Define your route here */}
         <Route path="/" element={<HomeLanding />} />
-        <Route path="/shopping-cart" element={<ShoppingCart />} />
+        {/* <Route path="/shopping-cart" element={<ShoppingCart />} /> */}
         <Route path="/home-landing" element={<HomeLanding />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/user-account" element={<UserAccount />} />
